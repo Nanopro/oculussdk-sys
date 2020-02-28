@@ -3,7 +3,11 @@ name = "oculussdk-sys"
 version = "0.1.0"
 authors = ["Nanopro <nanopro1g@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = """
+Raw bindings to libOVR, the Oculus Rift PC runtime library.
+"""
+keywords = ["oculus", "rift", "libovr", "vr", "ovr"]
+repository = "https://github.com/Nanopro/oculussdk-sys"
+license = "MIT / Apache-2.0"
 
 [dependencies]
